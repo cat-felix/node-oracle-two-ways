@@ -21,7 +21,7 @@ function sendResult(res, data) {
 
 function runAPI() {
 	oradb.createPool({
-		user: "felix", password: "catfelix", connectString:"delta", 
+		user: "scott", password: "tiger", connectString:"oracle12c", 
 		queueTimeout: 3000, poolTimeout: 1, queueRequests: true,
 		poolMin: 4, poolMax: 16, _enableStats: true
 	}, (ep, dbpool) => {
